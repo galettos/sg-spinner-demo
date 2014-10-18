@@ -1,0 +1,21 @@
+#main_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#spin {
+	position: absolute;
+	margin: 10px;
+	left: 80px;
+	z-index: 10;
+}
+
+#ticker  {
+	position: absolute;
+	margin: 10px;
+	top: 200px;
+	left: 80px;
+	z-index: 15;
+}

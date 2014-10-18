@@ -1,0 +1,714 @@
+
+  @-webkit-keyframes blur {
+    0% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+    }
+    25% {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+      50% {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+      100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+    }         
+  }
+
+.blur {
+  -webkit-animation-name: blur;
+  -webkit-animation-duration: 4s;
+}
+
+
+@-webkit-keyframes offer-rotate-pencil {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(-1080deg);
+    -ms-transform: rotate(-1080deg);
+    transform: rotate(-1080deg);
+  }  
+}
+
+.offer-rotate-pencil
+{
+  -webkit-animation-name: offer-rotate-pencil;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-animation-name: offer-rotate-pencil;
+  -ms-animation-duration: 4s;
+  -ms-animation-timing-function: ease-out;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-pencil; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes offer-rotate-notebook {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(-100deg);
+    -ms-transform: rotate(-100deg);
+    transform: rotate(-100deg);
+  }  
+}
+
+.offer-rotate-notebook
+{
+  -webkit-animation-name: offer-rotate-notebook;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-notebook;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-notebook; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+
+@-webkit-keyframes offer-rotate-calculator {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+  }  
+}
+
+.offer-rotate-calculator
+{
+  -webkit-animation-name: offer-rotate-calculator;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-calculator;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-calculator; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes offer-rotate-pen {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }  
+}
+
+.offer-rotate-pen
+{
+  -webkit-animation-name: offer-rotate-pen;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-pen;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-pen; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+
+@-webkit-keyframes offer-rotate-apple {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }  
+}
+
+.offer-rotate-apple
+{
+  -webkit-animation-name: offer-rotate-apple;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-apple;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-apple; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+
+@-webkit-keyframes offer-rotate-scissors {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }  
+}
+
+.offer-rotate-scissors
+{
+  -webkit-animation-name: offer-rotate-scissors;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-scissors;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-scissors; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes offer-rotate-glue {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }  
+}
+
+.offer-rotate-glue
+{
+  -webkit-animation-name: offer-rotate-glue;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-glue;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-glue; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes offer-rotate-ruler {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+    transform: rotate(160deg);
+  }  
+}
+
+.offer-rotate-ruler
+{
+  -webkit-animation-name: offer-rotate-ruler;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;  
+
+  -ms-animation-name: offer-rotate-ruler;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-ruler; 
+  animation-duration: 3s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+/*****************************************************************************/
+
+
+@-webkit-keyframes needle-anime {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  25% { 
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  75% { 
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }  
+  100% { 
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }  
+}
+
+.needle-anime
+{
+  -webkit-animation-name: needle-anime;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 2;
+
+  -ms-animation-name: needle-anime;
+  -ms-animation-duration: 2s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 2; 
+
+  animation-name: needle-anime; 
+  animation-duration: 2s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 2;
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes hand-anime {
+  0% {
+    -webkit-transform: rotate(-90deg);
+    -webkit-opacity: 1;
+    -ms-transform: rotate(-90deg);
+    -ms-opacity: 1;
+    transform: rotate(-90deg);
+    opacity: 1;    
+  }
+  50% { 
+    -webkit-transform: rotate(0deg);
+    -webkit-opacity: 0;
+    -ms-transform: rotate(0deg);
+    -ms-opacity: 0;
+    transform: rotate(0deg);
+    opacity: 0;    
+  }
+  100% { 
+    -webkit-transform: rotate(-90deg);
+    -webkit-opacity: 1;
+    -ms-transform: rotate(-90deg);
+    -ms-opacity: 1;
+    transform: rotate(-90deg);
+    opacity: 1;  
+  }  
+}
+
+.hand-anime
+{
+  -webkit-animation-name: hand-anime;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;  
+
+  -ms-animation-name: hand-anime;
+  -ms-animation-duration: 2s;
+  -ms-animation-timing-function: ease-out;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-iteration-count: infinite;  
+
+  animation-name: hand-anime; 
+  animation-duration: 2s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;   
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-calculator {
+  from {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(1135deg);
+    -ms-transform: rotate(1135deg);
+    transform: rotate(1135deg);
+  }
+}
+
+.stop-on-calculator
+{
+  -webkit-animation-name: stop-on-calculator;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards;
+
+  animation-name: stop-on-calculator; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-pen {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1095deg);
+    -ms-transform: rotate(1095deg);
+    transform: rotate(1095deg);
+  }
+}
+
+.stop-on-pen
+{
+  -webkit-animation-name: stop-on-pen;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards;  
+
+  animation-name: stop-on-pen; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-scissors {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1368deg);
+    -ms-transform: rotate(1368deg);
+    transform: rotate(1368deg);
+  }
+}
+
+.stop-on-scissors
+{
+  -webkit-animation-name: stop-on-scissors;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards;  
+
+  animation-name: stop-on-scissors; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-glue {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1322deg);
+    -ms-transform: rotate(1322deg);
+    transform: rotate(1322deg);
+  }
+}
+
+.stop-on-glue
+{
+  -webkit-animation-name: stop-on-glue;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards;  
+
+  animation-name: stop-on-glue; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-ruler {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1276deg);
+    -ms-transform: rotate(1276deg);
+    transform: rotate(1276deg);
+  }
+}
+
+.stop-on-ruler
+{
+  -webkit-animation-name: stop-on-ruler;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards;  
+
+  animation-name: stop-on-ruler; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-pencil {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1228deg);
+    -ms-transform: rotate(1228deg);
+    transform: rotate(1228deg);
+  }
+}
+
+.stop-on-pencil
+{
+  -webkit-animation-name: stop-on-pencil;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards; 
+
+  animation-name: stop-on-pencil; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-apple {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1410deg);
+    -ms-transform: rotate(1410deg);
+    transform: rotate(1410deg);
+  }
+}
+
+.stop-on-apple
+{
+  -webkit-animation-name: stop-on-apple;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards; 
+
+  animation-name: stop-on-apple; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/*****************************************************************************/
+
+@-webkit-keyframes stop-on-notebook {
+  from {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  to { 
+    -webkit-transform: rotate(1542deg);
+    -ms-transform: rotate(1542deg);
+    transform: rotate(1542deg);
+  }
+}
+
+.stop-on-notebook
+{
+  -webkit-animation-name: stop-on-notebook;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1; 
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-name: stop-on-calculator;
+  -ms-duration: 4s;
+  -ms-timing-function: ease-out;
+  -ms-iteration-count: 1; 
+  -ms-fill-mode: forwards; 
+  
+  animation-name: stop-on-notebook; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
