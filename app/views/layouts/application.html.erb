@@ -10,6 +10,111 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  
 </head>
+
+<style>
+#main_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#spin {
+	position: absolute;
+	margin: 10px;
+	left: 80px;
+	z-index: 10;
+}
+
+#ticker  {
+	position: absolute;
+	margin: 10px;
+	top: 200px;
+	left: 80px;
+	z-index: 15;
+}
+
+@-webkit-keyframes offer-rotate-pencil {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  } 
+  100% { 
+    -webkit-transform: rotate(-1080deg);
+    -ms-transform: rotate(-1080deg);
+    transform: rotate(-1080deg);
+  }  
+}
+
+.offer-rotate-pencil
+{
+  -webkit-animation-name: offer-rotate-pencil;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+
+  -ms-animation-name: offer-rotate-pencil;
+  -ms-animation-duration: 4s;
+  -ms-animation-timing-function: ease-out;
+  -ms-animation-iteration-count: 1; 
+  -ms-animation-fill-mode: forwards;  
+
+  animation-name: offer-rotate-pencil; 
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+
+}
+
+@-webkit-keyframes needle-anime {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  25% { 
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  75% { 
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }  
+  100% { 
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }  
+}
+
+.needle-anime
+{
+  -webkit-animation-name: needle-anime;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 2;
+
+  -ms-animation-name: needle-anime;
+  -ms-animation-duration: 2s;
+  -ms-animation-timing-function: ease-in;
+  -ms-animation-iteration-count: 2; 
+
+  animation-name: needle-anime; 
+  animation-duration: 2s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 2;
+}
+
+
+
+</style>
+
 <body>
 
 
